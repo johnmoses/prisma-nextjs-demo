@@ -16,7 +16,7 @@ export default async function Posts() {
           <li key={post.id}>
             <span className="font-semibold">{post.title}</span>
             <span className="text-sm ml-2">by {post.author.name}</span>
-            <span className="text-sm ml-2"><Link href={`/posts/${post.id}`}>View</Link></span>
+            <span className="text-sm ml-2"><Link href={`/posts/${post.id}`}> | View</Link></span>
           </li>
         ))}
       </ul>

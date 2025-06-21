@@ -12,13 +12,13 @@ const Header = () => {
         </Link>
         <Link
           className="header"
-          href="/posts"
+          href="/users"
         >
            Users | &nbsp;
         </Link>
         <Link
           className="header"
-          href="/users"
+          href="/posts"
         >
            Posts | &nbsp;
         </Link>
